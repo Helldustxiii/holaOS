@@ -1,6 +1,7 @@
 export { piHarnessDefinition } from "./pi.js";
 export { claudeCodeHarnessDefinition } from "./claude-code.js";
 export { codexHarnessDefinition } from "./codex.js";
+export { nyxHarnessDefinition } from "./nyx.js";
 export * from "./cli-harness-definition.js";
 export * from "./harness-mcp.js";
 export * from "./browser-capability-tools.js";
@@ -27,6 +28,7 @@ export * from "./workspace-skills.js";
 import { piHarnessDefinition } from "./pi.js";
 import { claudeCodeHarnessDefinition } from "./claude-code.js";
 import { codexHarnessDefinition } from "./codex.js";
+import { nyxHarnessDefinition } from "./nyx.js";
 
 export const DEFAULT_HARNESS_ID = "pi";
 
@@ -34,4 +36,5 @@ export const HARNESS_DEFINITIONS = [
   piHarnessDefinition,
   claudeCodeHarnessDefinition,
   codexHarnessDefinition,
+  nyxHarnessDefinition,
 ] as const;
